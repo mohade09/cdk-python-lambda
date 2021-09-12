@@ -19,7 +19,12 @@ setuptools.setup(
     packages=setuptools.find_packages(where="pipelines_webinar"),
 
     install_requires=[
-        "aws-cdk.core==1.56.0",
+        "aws-cdk.core==1.122.0",
+        "aws-cdk.aws_iam==1.122.0",
+        "aws-cdk.aws_sqs==1.122.0",
+        "aws-cdk.aws_sns==1.122.0",
+        "aws-cdk.aws_sns_subscriptions==1.122.0",
+        "aws-cdk.aws_s3==1.122.0",
     ],
 
     python_requires=">=3.6",
